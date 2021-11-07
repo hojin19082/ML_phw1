@@ -9,6 +9,8 @@ FindBestModel
     print best score and best combination for each model.
     
 Parameter:
+
+
     :param df: The Wisconsin Cancer dataset preprocessed
     :param target: target feature's name
     :param scalers: list of scalers
