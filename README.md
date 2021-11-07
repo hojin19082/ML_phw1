@@ -3,11 +3,12 @@ Programming Homework 1
 
 Auto ML for classificaion
 
-FindBestModel(df,target, scalers = None, encoders = None, models = None)
+FindBestModel
 
-    For each model, we find a combination of k-value, scaling, encoding, score, and parameters.
+    Goal : For each model, we find a combination of k-value, scaling, encoding, score, and parameters.
     print best score and best combination for each model.
-
+    
+Parameter:
     :param df: The Wisconsin Cancer dataset preprocessed
     :param target: target feature's name
     :param scalers: list of scalers
